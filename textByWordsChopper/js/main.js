@@ -72,12 +72,14 @@ const funcChop = () => {
     };
     console.log(`longestWord : ${longestWord}`);
 
-
+     
+    goButton.setAttribute("disabled", "true");
 
 }
 
 
-
+ 
 
 
 goButton.addEventListener( 'click', funcChop );
+ 

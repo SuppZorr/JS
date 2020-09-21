@@ -114,13 +114,13 @@ function seaBattle() {
         
         
          
-
+             
 
          
-        
+            
          
                  
-            let dmg1 =  blueNavy[b1].dmg*((random(80,120)/100));
+            let dmg1 =  Math.floor((blueNavy[b1].dmg*((random(80,120)/100))) * 100) / 100;
             redNavy[a1].hp = redNavy[a1].hp - dmg1;
             str  = str   + ` <br> ${blueNavy[b1].name} синего флота стреляет в ${redNavy[a1].name} красного флота и наносит ${dmg1} ед. урона.  `;
             if ( 0 >=   redNavy[a1].hp) {
@@ -140,9 +140,10 @@ function seaBattle() {
         
             let b2 = randomShip(blueNavy, sinkBlue);
 
-       
+             
+            
         
-            let dmg2 =   redNavy[a2].dmg*((random(80,120)/100));
+            let dmg2 =   Math.floor((redNavy[a2].dmg*((random(80,120)/100))) * 100) / 100;
 
             blueNavy[b2].hp = blueNavy[b2].hp - dmg2;
             str  = str +  ` <br>   ${redNavy[a2].name} красного флота стреляет в ${blueNavy[b2].name} синего флота и наносит ${dmg2} ед. урона.  `;
