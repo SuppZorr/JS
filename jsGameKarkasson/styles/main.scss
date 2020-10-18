@@ -1,0 +1,71 @@
+body {
+     display: flex;
+     flex-direction: row;
+}
+
+.main {
+    box-sizing: border-box;
+     
+    margin: 30px;
+    width: 523px;
+    height: 523px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.cell {
+    width:62px;
+    height:62px;
+    border: 1px solid black;
+    text-align: center;
+    color:white;
+    font-size: 0;
+    
+}
+ 
+.status {
+    width: 100px;
+    height: 100px;
+    user-select: none;
+    margin: 60px;
+        .left {
+            position: relative;
+            top: 20px;
+        }
+     .card {
+            width:62px;
+            height:62px;
+        }
+}
+
+.pic0 {
+    background : url(../images/1.png);
+    
+};
+
+.pic1 {
+    background : url(../images/2.png);
+     
+}
+
+.pic2 {
+    background : url(../images/3.png);
+     
+}
+
+.turn90 {
+    transform: rotate(90deg);
+     
+}
+
+.turn180 {
+    transform: rotate(180deg);
+     
+}
+
+.turn270 {
+    transform: rotate(-90deg);
+     
+}
