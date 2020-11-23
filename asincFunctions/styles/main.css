@@ -1,0 +1,79 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.main {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 30px;
+  width: 523px;
+  height: 523px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.cell {
+  width: 62px;
+  height: 62px;
+  border: 1px solid black;
+  text-align: center;
+  color: white;
+  font-size: 0;
+}
+
+.status {
+  width: 100px;
+  height: 100px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  margin: 60px;
+}
+
+.status .left {
+  position: relative;
+  top: 20px;
+}
+
+.status .card {
+  width: 62px;
+  height: 62px;
+}
+
+.pic0 {
+  background: url(../images/1.png);
+}
+
+.pic1 {
+  background: url(../images/2.png);
+}
+
+.pic2 {
+  background: url(../images/3.png);
+}
+
+.turn90 {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.turn180 {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.turn270 {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+/*# sourceMappingURL=main.css.map */

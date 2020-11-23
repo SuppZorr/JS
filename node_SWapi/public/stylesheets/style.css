@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'StarWars';
+  src: url('../fonts/starwars.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  padding: 10px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.loader {
+  /* box-sizing: border-box; */
+  position: fixed;
+  width: 100vw;
+  height: 95vh;
+  top: 0;
+  left: 0;
+  display: none;
+  align-items: center;
+  
+}
+
+.gif {
+ position: relative;
+ margin: auto;
+}
+
+
+li {
+  list-style-type: none;  
+  padding: 3px;
+ }
+
+ li:before {
+  font-family: 'StarWars';
+  content: "\f02F";
+ }
+
+ 
